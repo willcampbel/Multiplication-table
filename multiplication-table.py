@@ -26,8 +26,9 @@ print("The number is: {0:>3}".format(12))        # Prints "The number is:  12"
 print("The number is: {0:>3}".format(123))
 """
 import math
-width = int(input("Width of multiplication table: "))
 height = int(input("Height of multiplication table: "))
+width = int(input("Width of multiplication table: "))
+
 
 for x in range(1, width+1): 
     print("")
