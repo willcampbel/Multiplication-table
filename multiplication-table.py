@@ -20,4 +20,25 @@ Height of multiplication table: 8
   6  12  18  24  30  36  42  48  54  60
   7  14  21  28  35  42  49  56  63  70
   8  16  24  32  40  48  56  64  72  80
+  
+print("The number is: {0:>3}".format(1))         # Prints "The number is:   1"
+print("The number is: {0:>3}".format(12))        # Prints "The number is:  12"
+print("The number is: {0:>3}".format(123))
 """
+import math
+width = int(input("Width of multiplication table: "))
+height = int(input("Height of multiplication table: "))
+
+for x in range(1, width): 
+    print("")
+    for y in range(1, height): 
+        print("{0:>3}".format(x*y), "", end="")
+        
+        
+        
+        
+        
+        
+        
+        
+        
